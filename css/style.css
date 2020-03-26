@@ -45,7 +45,7 @@ section{
 }
 @media (max-width:420px)  {
   section{
-    padding: 15px 0 5%;
+    padding: 15px 5px 5%;
   }#titulo{
     padding-top: 0;
   }
@@ -197,7 +197,7 @@ a.download-zap:hover{
   background-color: #7BC7C3;
   text-align: left;
 }
-@media(max-width:768px) {
+@media(max-width:769px) {
   #progresso h2{
     text-align: center;
   }
@@ -205,13 +205,20 @@ a.download-zap:hover{
     margin-top: 2rem;
   }
 }
+@media (max-width:770px) and (min-width:768px) {
+h2#outras-habilidades{
+  margin-top: 0;
+}
+}
 .coluna-progress-bar{
   padding:
 }
 #progresso p{
   padding-top: 16px;
 }
-
+h2#outras-habilidades{
+  white-space: nowrap;
+}
 /*Experiencia profissional*/
 #exp .card{
   position: relative;
@@ -238,10 +245,7 @@ a.download-zap:hover{
 }
 
 #exp .btn{
-  position: absolute;
-  display: block;
-  bottom: 10%;
-  left: 45%;
+  vertical-align: middle;
 }
 /*Footer*/
 #footer{
