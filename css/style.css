@@ -1,0 +1,247 @@
+/*
+PALETA DE CORES:
+https://colorhunt.co/palette/169452
+preto: #333333
+branco: #ffffff
+azul: #e1f4f3
+cinza: #706c61
+EXCESSÃO: #7BC7C3
+*/
+
+/*
+Fontes
+font-family: 'Poppins', sans-serif;
+*/
+
+/*ScroolBar*/
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e1f4f3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #706c61;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #e1f4f3;
+  text-align: center;
+  overflow-x: hidden;
+}
+section{
+  padding: 15px 10% 5%;
+}
+@media (max-width:420px)  {
+  section{
+    padding: 15px 0 5%;
+  }#titulo{
+    padding-top: 0;
+  }
+}
+h1,h2,h3,h4,h5,h6{
+  color: #333333;
+  font-weight: bold;
+}
+h2{
+  padding: 5% 0;
+}
+p{
+  color: #706c61;
+}
+#titulo{
+  text-align: left;
+}
+@media (max-width:991px) {
+  #titulo{
+    text-align: center;
+  }
+}
+/*Navbar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight:lighter;
+}
+#titulo .row{
+  padding: 7% 0;
+}
+/*Foto de perfil*/
+.ft-perfil{
+  border-radius: 100%;
+  height: 300px;
+}
+/*Texto de Apresentação*/
+.txt-apresentacao .carousel-item{
+  color:#706c61;
+  font-weight: 100;
+  font-style: italic;
+}
+.txt-apresentacao{
+  margin-top: 35px;
+}
+.txt-apresentacao h1{
+  font-weight: 900;
+}
+.txt-apresentacao .contratar-pfvr{
+  color: #706c61;
+  line-height: 2;
+  padding-top: 10px;
+}
+@media(max-width:991px) {
+  .txt-apresentacao .contratar-pfvr{
+    padding:20px 10%;
+  }
+}
+
+/*OBJETIVOS*/
+
+#obj{
+  background-color: #ffffff;
+}
+.carousel-obj{
+  padding: 3%;
+}
+.carousel-obj .carousel-control-prev-icon{
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-obj .carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-obj .carousel-item{
+  padding: 7% 25%;
+}
+.carousel-obj h5{
+  font-weight: bold;
+}
+.carousel-obj p{
+  padding: 3%;
+  line-height: 1.5;
+}
+
+/*Formação Academica*/
+.titulo-section{
+  margin-bottom: 5% ;
+  margin-top: 5%;
+}
+.card-instituicao{
+  min-height: 450px;
+}
+.logo-instituicao{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  display: block;
+  margin: 6% auto;
+}
+.logo-instituicao#logo-iftm{
+  width: 150px;
+}
+.cards-instituicoes p{
+  margin: 3% 10%;
+}
+
+/*Outros Cursos*/
+#outros-cursos{
+  background-color: #ffffff;
+}
+#outros-cursos a{
+  text-align: left;
+}
+#outros-cursos span{
+  width: 28px;
+}
+@media(max-width:768px) {
+  #outros-cursos span{
+    margin-left: 20px;
+  }
+}
+/*Progresso*/
+#progresso{
+  background-color: #7BC7C3;
+  text-align: left;
+}
+@media(max-width:768px) {
+  #progresso h2{
+    text-align: center;
+  }
+  #outras-habilidades{
+    margin-top: 2rem;
+  }
+}
+.coluna-progress-bar{
+  padding:
+}
+#progresso p{
+  padding-top: 16px;
+}
+
+/*Experiencia profissional*/
+#exp .card{
+  position: relative;
+  display: block;
+  margin: 1rem auto;
+}
+#exp .card{
+  width: 18rem;
+}
+@media(max-width:1080px) and (min-width:991px) {
+ #exp .card{
+   width: 16rem;
+ }
+.outros-cursos .cta{
+   height: 373px;
+ }
+}
+.cta{
+  height: 333px;
+  padding: 0 15%;
+}
+.cta .card-text{
+  margin: 20% auto;
+}
+
+#exp .btn{
+  position: absolute;
+  display: block;
+  bottom: 10%;
+  left: 45%;
+}
+/*Footer*/
+#footer{
+  background-color: #fff;
+  padding: 5rem 0;
+}
+.ft-icon, .voltar{
+  color: #7BC7C3;
+  margin: 20px 10px;
+}
+.ft-icon:hover, .voltar:hover{
+  color: #706c61;
+  text-decoration: none;
+}
+.grey-text-footer {
+  color:#706c61;
+}
+.voltar{
+
+}
