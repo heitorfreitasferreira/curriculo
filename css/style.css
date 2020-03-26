@@ -21,7 +21,7 @@ font-family: 'Poppins', sans-serif;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #e1f4f3;
+  background: rgba(0, 0, 0, 0);
 }
 
 /* Handle */
@@ -41,6 +41,7 @@ body{
 }
 section{
   padding: 15px 10% 5%;
+  width: 100%;
 }
 @media (max-width:420px)  {
   section{
@@ -96,9 +97,6 @@ p{
   font-weight: 100;
   font-style: italic;
 }
-.txt-apresentacao{
-  margin-top: 35px;
-}
 .txt-apresentacao h1{
   font-weight: 900;
 }
@@ -111,8 +109,27 @@ p{
   .txt-apresentacao .contratar-pfvr{
     padding:20px 10%;
   }
+  #titulo .navbar-toggler{
+    margin-right: 1rem;
+  }
+  .txt-apresentacao{
+    margin-top: 3rem;
+  }
 }
-
+.txt-apresentacao .download-pdf{
+  color: #fff;;
+  text-decoration: none;
+}
+.txt-apresentacao .download-bnt{
+  margin: 5% 3% 5% 0;
+}
+a.download-zap{
+  color: #706c61;
+  text-decoration: none;
+}
+a.download-zap:hover{
+  color: #fff;
+}
 /*OBJETIVOS*/
 
 #obj{
@@ -231,17 +248,14 @@ p{
   background-color: #fff;
   padding: 5rem 0;
 }
-.ft-icon, .voltar{
+#footer .ft-icon, #footer .voltar{
   color: #7BC7C3;
   margin: 20px 10px;
 }
-.ft-icon:hover, .voltar:hover{
+#footer .ft-icon:hover, #footer .voltar:hover{
   color: #706c61;
   text-decoration: none;
 }
-.grey-text-footer {
+#footer .grey-text-footer {
   color:#706c61;
-}
-.voltar{
-
 }
