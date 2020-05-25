@@ -84,6 +84,10 @@ p {
   }
 }
 
+.row {
+  margin-right: 0;
+}
+
 /*Navbar*/
 .navbar {
   padding: 0 0 4.5rem;
